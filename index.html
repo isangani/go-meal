@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Go-Meal</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap/docs.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <section>
+    <div class="container-fluid">
+      <section>
+        <div class="d-flex flex-column flex-shrink-0 sidebar">
+          <div class="d-flex align-items-center">
+            <div class="go-meal margin5">GoMeal<span class="yellow">.</span><button type="button" class="btn"><img
+                  src="images/toggle.png" class="img-fluid iconbtn"></button>
+            </div>
+          </div>
+          <ul class="nav flex-column mt2">
+            <li class="nav-item">
+              <a href="#" class="nav-link backyellow font18 white poppins " aria-current="page">
+                <img src="images/Vector.png" class="img-fluid ml" data-bs-toggle="tooltip" data-bs-placement="right"
+                  title="Dashboard">
+                <span class="mleft">Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link  font18  poppins mt5 ml">
+                <img src="images/scooter.png" class="img-fluid" data-bs-toggle="tooltip" data-bs-placement="right"
+                  title="Food Order">
+                <span class="mleft gray">Food Order</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link mt5 ml">
+                <img src="images/Review.png" class="img-fluid" data-bs-toggle="tooltip" data-bs-placement="right"
+                  title="Favorite">
+                <span class="mleft gray">Favorite</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link mt5 ml">
+                <img src="images/Order Discussion.png" class="img-fluid" data-bs-toggle="tooltip"
+                  data-bs-placement="right" title="Message">
+                <span class="mleft gray">Message</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link mt5 ml">
+                <img src="images/24 Hour Food Delivery.png" class="img-fluid" data-bs-toggle="tooltip"
+                  data-bs-placement="right" title="Order History">
+                <span class="mleft5 gray">Order History</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link mt5 ml">
+                <img src="images/Bill.png" class="img-fluid" data-bs-toggle="tooltip" data-bs-placement="right"
+                  title="Bills">
+                <span class="mleft gray">Bills</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link mt5 ml">
+                <img src="images/Setting.png" class="img-fluid" data-bs-toggle="tooltip" data-bs-placement="right"
+                  title="Bills">
+                <span class="mleft gray">Setting</span>
+              </a>
+            </li>
+          </ul>
+          <div class="backyellow padding10 border img-position-relative mt20">
+            <div class="img-position-absolute bottom-0 start-0 dnone">
+              <img class="img-fluid" src="images/Mask Group (2).png">
+            </div>
+            <div class="float-lg-end fr dnone"><img src="images/Vector (1).png" class="img-fluid"></div>
+            <div class="float-lg-start fl fw700 font18 poppins white tcenter">
+              <div class="dnone">Upgrade your Account to Get Free Voucher</div>
+              <button class="btn upgrade font14 backwhite mt5 rmarginupgrade">Upgrade</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="sidebar2">
+          <div class="d-flex mt3 align-items-center flex-wrap">
+            <div class="img-position-relative pointer">
+              <img src="images/Order Discussion (1).png" class="img-fluid iconheight">
+              <span
+                class="img-position-absolute top-10 start-10 translate-middle backyellow bagdeyellow rounded-circle">
+                <span class="visually-hidden">New alerts</span>
+              </span>
+            </div>
+            <div class="img-position-relative pointer">
+              <img src="images/notification.png" class="img-fluid iconheight mleft">
+              <span
+                class="img-position-absolute top-10 start-10 translate-middle backyellow bagdeyellow rounded-circle">
+                <span class="visually-hidden">New alerts</span>
+              </span>
+            </div>
+            <div class="flex-sm-grow-1 pointer">
+              <img src="images/Setting (1).png" class="img-fluid iconheight mleft">
+            </div>
+            <div>
+              <img src="images/placeholder.png" class="img-fluid profileheight pointer">
+            </div>
+          </div>
+          <div class="mt3 font24 poppins">
+            Your Balance
+          </div>
+          <div class="backyellow padding8 img-position-relative border mt3">
+            <div class="img-position-absolute top-0 start-0 z-1 d-xl-block d-none">
+              <img src="images/ellipse (5).png"
+                class="img-fluid img-position-absolute-height img-position-absolute-width">
+            </div>
+            <div class="img-position-absolute bottom-0 start-0 z-1 d-xl-block d-none">
+              <img src="images/ellipse (4).png" class="img-fluid img-position-absolute-width">
+            </div>
+            <div class="d-xl-flex">
+              <div class="backwhite border16 z-3 center">
+                <span class="font-size14 poppins">Balance</span>
+                <div class="f32 poppins">$12.000</div>
+              </div>
+              <div class="z-3 addmargin">
+                <div class="backwhite border textcenter mleft rml ">
+                  <img src="images/Income.png" class="img-fluid padding1">
+                </div>
+                <div class="font-size14 poppins white mt3 center mleft">TopUp</div>
+              </div>
+              <div class="z-3 addmargin">
+                <div class="backwhite border textcenter mleft rml padding1">
+                  <img src="images/Profit.png" class="img-fluid">
+                </div>
+                <div class="font-size14 poppins white mt3 center ">Transfer</div>
+              </div>
+            </div>
+          </div>
+          <div class="mt3">
+            <div class="font18 poppins gray">Your Address</div>
+          </div>
+          <div class="d-sm-flex  align-items-end flex-wrap center">
+            <div class=""><img src="images/Location.png" class="img-fluid"></div>
+            <div class="font18 poppins elmstreet flex-lg-grow-1">Elm Street, 23</div>
+            <div class="btn font-size14 poppins change yellow addmargin ">Change</div>
+          </div>
+          <div class="mt2 addmargin">
+            <div class="fw400 font-size14 poppins gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt. </div>
+          </div>
+          <div class="mt3 center">
+            <button type="button" class="btn font-size14 poppins border8 buttons margin5">Add Details</button>
+            <button type="button" class="btn font-size14 poppins border8 buttons margin5 ">Add Note</button>
+          </div>
+          <div class="mt15 center">
+            <div class="font24 poppins">Order Menu</div>
+          </div>
+          <div class="mt3 d-lg-flex align-items-end flex-wrap tcenter">
+            <div>
+              <img src="images/pizza.png" class="img-fluid smallimg">
+            </div>
+            <div class="flex-lg-grow-1 mleft">
+              <div class="font18 poppins">Pepperoni Pizza</div>
+              <div class="fw400 font-size14 gray">x1</div>
+            </div>
+            <div class="font18 poppins">+<span class="yellow">$</span>5.59</div>
+          </div>
+          <div class="mt3 d-lg-flex align-items-end flex-wrap tcenter">
+            <div>
+              <img src="images/burger (2).png" class="img-fluid burgur smallimg">
+            </div>
+            <div class="flex-lg-grow-1 mleft">
+              <div class="font18 poppins">Cheese Burger</div>
+              <div class="fw400 font-size14 gray">x1</div>
+            </div>
+            <div class="font18 poppins">+<span class="yellow">$</span>5.59</div>
+          </div>
+          <div class="mt3 d-lg-flex align-items-end flex-wrap tcenter">
+            <div>
+              <img src="images/freshly-baked-pizza.png" class="img-fluid smallimg">
+            </div>
+            <div class="flex-lg-grow-1 mleft">
+              <div class="font18 poppins">Vegan Pizza</div>
+              <div class="fw400 font-size14 gray">x1</div>
+            </div>
+            <div class="font18 poppins">+<span class="yellow">$</span>5.59</div>
+          </div>
+          <hr class="mt20">
+          <div class="d-md-flex align-items-center mt5 divcenter">
+            <div class="font-size14 poppins flex-grow-1 gray">
+              Service
+            </div>
+            <div class="font18 poppins">+<span class="yellow">$</span>1.00</div>
+          </div>
+          <div class="d-md-flex align-items-center mt2 divcenter">
+            <div class="font18 poppins flex-grow-1">Total</div>
+            <div class="font24 poppins "><span class="yellow">$</span>202.00</div>
+          </div>
+          <div class="mt3 backgray d-flex flex-wrap pointer">
+            <img src="images/Coupon (1).png" class="img-fluid">
+            <div class="font-size14 poppins center">Have a coupon code?</div>
+            <img src="images/chevron-down.png" class="img-fluid gt">
+          </div>
+          <div class="mt3 backyellow btn font18 poppins d-flex border16 white checkout">
+            Checkout
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="main">
+          <div class="d-lg-flex mt2 tcenter">
+            <div class="font36 poppins flex-lg-grow-1 tcenter">Hello, Patricia</div>
+            <input type="search" class=" search d-flex  font18 poppins gray margin5"
+              placeholder="What do you want eat today...">
+          </div>
+          <div class="backyellow img-position-relative border mt2  margin5">
+            <div class="img-position-absolute bottom-0 start-0 d-lg-block d-none">
+              <img src="images/ellipse (1).png" class="img-fluid">
+            </div>
+            <!-- <div class="img-position-absolute top-0 start-50">
+                  <img src="images/ellipse (2).png" class="img-fluid">
+               </div>
+               <div class="img-position-absolute top-50 end-0">
+                <img src="images/ellipse (3).png" class="img-fluid">
+             </div>-->
+            <div class="row">
+              <div class="clearfix">
+                <div class="float-lg-start width50 poppins white margin3">
+                  <div class="font32 tcenter">Get Discount Voucher Up To 20% </div>
+                  <div class="font-size14 mt2 tcenter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt. </div>
+                </div>
+                <div class="float-lg-end width40 tcenter">
+                  <img src="images/girl.png" class="img-fluid bdbottom">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex mt3 align-items-center">
+            <div class="flex-grow-1">
+              <div class="font24 poppins">
+                Category
+              </div>
+            </div>
+            <div class="font18 yellow poppins pointer">
+              View all
+              <img src="images/chevron-down.png" class="img-fluid gt">
+            </div>
+          </div>
+          <div class="row mt2 justify-content-xl-around justify-content-evenly pointer">
+            <div class=" d-flex  category border16 font18 poppins gray backwhite margin5">
+              <img class="img-fluid" src="images/Baked.png"><span class="mt5">Bakery</span>
+            </div>
+            <div class=" d-flex  category border16 font18 poppins gray  backwhite margin5">
+              <img class="img-fluid" src="images/Burger.png"><span class="mt5">Burger</span>
+            </div>
+            <div class=" d-flex category border16 font18 poppins gray backwhite margin5">
+              <img class="img-fluid" src="images/Coffee.png"><span class="mt5">Beverage</span>
+            </div>
+            <div class=" d-flex category border16 font18 poppins gray  backwhite margin5">
+              <img class="img-fluid" src="images/Chicken.png"><span class="mt5">Chicken</span>
+            </div>
+            <div class=" d-flex category border16 font18 poppins gray backwhite margin5">
+              <img class="img-fluid" src="images/Fast.png"><span class="mt5">Pizza</span>
+            </div>
+            <div class=" d-flex  category border16 font18 poppins gray backwhite margin5">
+              <img class="img-fluid" src="images/Fish.png"><span class="mt5">Seafood</span>
+            </div>
+          </div>
+          <div class="d-flex mt3 align-items-center">
+            <div class="flex-grow-1">
+              <div class="font24 poppins">
+                Popular Dishes
+              </div>
+            </div>
+            <div class="font18 yellow poppins pointer">
+              View all
+              <img src="images/chevron-down.png" class="img-fluid gt">
+            </div>
+          </div>
+          <div class="row justify-content-evenly mt2">
+            <div class="col-lg-4 col-md-6 margin5">
+              <div class="card padding25">
+                <div class="img-position-relative"><img src="images/fresh-tasty-burger.png" class="card-img-top"
+                    alt="..."></div>
+                <div class="img-position-absolute top-10 start-0 backred white font18 poppins textcenter">15% Off</div>
+                <div class="img-position-absolute top-10 end-0"><img class="img-fluid" src="images/Love.png"></div>
+                <div class="mt2">
+                  <img src="images/Star 1.png" class="img-fluid">
+                  <img src="images/Star 1.png" class="img-fluid">
+                  <img src="images/Star 1.png" class="img-fluid">
+                  <img src="images/Star 1.png" class="img-fluid">
+                  <img src="images/Star 1.png" class="img-fluid">
+                </div>
+                <div class="d-flex mt5 align-items-center">
+                  <div class="flex-grow-1">
+                    <div class="font18 poppins">
+                      Fish Burger
+                    </div>
+                    <div class="font24 poppins">
+                      <span class="yellow">$</span>5.59
+                    </div>
+                  </div>
+                  <div class="align-items-center pointer">
+                    <img src="images/plus (1).png" class="img-fluid backyellow border8 padding18">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 margin5">
+              <div class="card padding25 ">
+                <div class="img-position-relative"><img src="images/tasty-burger-with-bacon.png" class="card-img-top"
+                    alt="..."></div>
+                <div class="img-position-absolute top-10 start-0 backred white font18 poppins textcenter">15% Off</div>
+                <div class="img-position-absolute top-10 end-0"><img class="img-fluid" src="images/Love (1).png"></div>
+                <div class="mt2">
+                  <img src="images/Star 1.png" class="img-fluid">
+                  <img src="images/Star 1.png" class="img-fluid">
+                  <img src="images/Star 1.png" class="img-fluid">
+                  <img src="images/Star 1.png" class="img-fluid">
+                  <img src="images/Star 1.png" class="img-fluid">
+                </div>
+                <div class="d-flex mt5 align-items-center">
+                  <div class="flex-grow-1">
+                    <div class="font18 poppins">
+                      Beef Burger
+                    </div>
+                    <div class="font24 poppins">
+                      <span class="yellow">$</span>5.59
+                    </div>
+                  </div>
+                  <div class="align-items-center pointer">
+                    <img src="images/plus (1).png" class="img-fluid backyellow border8 padding18">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 margin5">
+              <div class="card padding25">
+                <div class="img-position-relative"><img src="images/burger (2).png" class="card-img-top" alt="...">
+                </div>
+                <div class="img-position-absolute top-10 start-0 backred white font18 poppins textcenter">15% Off</div>
+                <div class="img-position-absolute top-10 end-0"><img class="img-fluid" src="images/Love (1).png"></div>
+                <div class="mt2">
+                  <img src="images/Star 1.png" class="img-fluid">
+                  <img src="images/Star 1.png" class="img-fluid">
+                  <img src="images/Star 1.png" class="img-fluid">
+                  <img src="images/Star 1.png" class="img-fluid">
+                  <img src="images/Star 1.png" class="img-fluid">
+                </div>
+                <div class="d-flex mt5 align-items-center">
+                  <div class="flex-grow-1">
+                    <div class="font18 poppins">
+                      Cheese Burger
+                    </div>
+                    <div class="font24 poppins">
+                      <span class="yellow">$</span>5.59
+                    </div>
+                  </div>
+                  <div class="align-items-center pointer">
+                    <img src="images/plus (1).png" class="img-fluid backyellow border8 padding18">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex mt3 align-items-center">
+            <div class="flex-grow-1">
+              <div class="font24 poppins">Recent Order</div>
+            </div>
+            <div class="font18 yellow poppins pointer"> View all
+              <img src="images/chevron-down.png" class="img-fluid gt">
+            </div>
+          </div>
+          <div class="row mt2 justify-content-evenly">
+            <div class="col-lg-4 col-md-6 margin5">
+              <div class="card recent h-100">
+                <div class="img-position-relative"><img src="images/pizza.png" class="card-img-top" alt="..."></div>
+                <div class="img-position-absolute top-10 end-0"><img src="images/Love (1).png" class="img-fluid"></div>
+                <div class="font18 poppins textcenter">Fish Burger</div>
+                <div class="font24 poppins textcenter"><span class="yellow">$</span>5.59</div>
+                <div class="textcenter">
+                  <div class="font18 poppins gray">4.97 km<img src="images/Ellipse 29.png" class="img-fluid"> 21 min
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 margin5">
+              <div class="card recent h-100">
+                <div class="img-position-relative"><img src="images/ramen-asian-noodle.png" class="card-img-top"
+                    alt="..."></div>
+                <div class="img-position-absolute top-10 end-0"><img src="images/Love (1).png" class="img-fluid"></div>
+                <div class="font18 poppins textcenter mt3">Japan Ramen</div>
+                <div class="font24 poppins textcenter"><span class="yellow">$</span>5.59</div>
+                <div class="textcenter">
+                  <div class="font18 poppins gray">4.97 km<img src="images/Ellipse 29.png" class="img-fluid"> 21 min
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 margin5">
+              <div class="card recent h-100">
+                <div class="img-position-relative"><img src="images/plate-of-asian-food.png" class="card-img-top"
+                    alt="..."></div>
+                <div class="img-position-absolute top-10 end-0"><img src="images/Love (1).png" class="img-fluid"></div>
+                <div class="font18 poppins textcenter mt3"> Fried Rice</div>
+                <div class="font24 poppins textcenter"><span class="yellow">$</span>5.59</div>
+                <div class="textcenter">
+                  <div class="font18 poppins gray">4.97 km<img src="images/Ellipse 29.png" class="img-fluid"> 21 min
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+  <script src="bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="bootstrap/popper.min.js"></script>
+  <script src="bootstrap/jquery.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".gt").click(function () {
+        $(this).toggleClass("rotate");
+      })
+      $(".iconbtn").click(function () {
+        $("li span").toggleClass("display");
+        $(".sidebar").toggleClass("w10");
+        $(".main").toggleClass("w90");
+        $(".nav-link").toggleClass("textcenter");
+        $(".go-meal").toggleClass("smallheading");
+        $(".sidebar").toggleClass("sidebarpadding");
+        $(".upgrade").toggleClass("upgradechange");
+        $(".dnone").toggleClass("display");
+        $(".padding10").toggleClass("padding0");
+        $(this).toggleClass("rotatetoggle");
+      })
+    })
+  </script>
+</body>
+
+</html>
