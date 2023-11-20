@@ -278,7 +278,7 @@ padding: 0.625rem 1.25rem 1.125rem 1.25rem;
 }
 @media screen and (min-width:12.5rem) and (max-width:75rem) {
     .nav-link{
-        padding: 0.375rem 0.25rem;
+        padding: 0.175rem 0.05rem;
     }
     .padding25{
         padding: 1.063rem 1rem;
@@ -337,9 +337,6 @@ padding: 0.625rem 1.25rem 1.125rem 1.25rem;
     .width40{
         width: 43%;
     }
-    .bdbottom{
-        height: 11.875rem;
-    }
     .iconheight{
         height: 1.875rem;
         width: 1.875rem;
@@ -374,6 +371,10 @@ padding: 0.625rem 1.25rem 1.125rem 1.25rem;
         width: 5.625rem;
         height: 6.25rem;
     }
+    .category img{
+        height: 3rem;
+        width: 3rem;
+    }
     .backred{
         height: 1.5rem;
     }
@@ -389,6 +390,9 @@ padding: 0.625rem 1.25rem 1.125rem 1.25rem;
     .backgray{
         gap:0rem;
         padding: 0.313rem 0rem;
+    }
+    .bdbottom{
+        height: 11.875rem;
     }
 }
 @media screen and (min-width:12.5rem) and (max-width:48rem) {
@@ -437,7 +441,10 @@ padding: 0.625rem 1.25rem 1.125rem 1.25rem;
     .category{
         width: 5rem;
         height: 5.938rem;
-        padding: 0.625rem;
+    }
+    .category img{
+        height: 2.5rem;
+        width: 2.5rem;
     }
     .backred{
         height: 1.25rem;
@@ -469,6 +476,14 @@ padding: 0.625rem 1.25rem 1.125rem 1.25rem;
     .padding18{
         padding: 0.673rem;
     }
+    .bdbottom{
+        height: 9.875rem;
+       object-fit: cover;
+    }
+    .card-img-top{
+        height: 7rem;
+        width: 9rem;
+    }
 }
 @media screen and (min-width:48rem) and (max-width:62rem) {
     .go-meal{
@@ -489,5 +504,10 @@ padding: 0.625rem 1.25rem 1.125rem 1.25rem;
 @media  screen and (min-width:12.5rem) and (max-width:26.563rem) {
     .f32{
         font-size: 1rem;
+    }
+    .card-img-top{
+        height: 5rem;
+        width: 6rem;
+        object-fit: cover;
     }
 }
